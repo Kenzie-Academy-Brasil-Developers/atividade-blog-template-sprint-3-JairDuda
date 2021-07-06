@@ -35,32 +35,134 @@ html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, a{
     font-family: sans-serif;
     list-style: none;
     text-decoration: none;
+    
 }
 /* GERAL */
   
-/* HTML */
-html{}
-/* HTML */
-  
-/* BODY */
-body{}
-/* BODY */
-  
 
+body{
+    width: 85%;
+    margin: 0 auto;
+}
 /* HEADER */
-header{}
+.header{
+    height: 10vh;
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* HEADER */
-  
+
+main{
+    
+    
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    background-color: chocolate;
+    
+}
+
+.container__elemento{
+    width: 60%;
+    background-color: coral;
+    height: 100%;
+    justify-content: space-evenly;
+    position: absolute;
+    
+    
+    
+}
+
+.container__elemento--div1{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 0px;
+    background-color: green;
+
+}
+
+.container__elemento--div2{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 0;
+    background-color:black;
+    color: honeydew;
+
+}
+
+aside{
+   
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+    
+}
+
+.aside__lateral > div{
+    height: 33.333%;
+    width: 90%;
+    display: flex;
+    clear: both;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px dotted red;
+}
+
+li{
+    padding: 5px 0;
+    background-color: hotpink;
+}
+
+
 
 /* FOOTER */
-footer{}
+footer{
+    background-color: chocolate;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    
+    border: grey solid 1px;
+    margin-bottom: 20px;
+    
+}
+
+.aside__botton{
+    width: 25%;
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px;
+}
 /* FOOTER */
 
-  
-/* INICIAL */
-main{}
-/* INICIAL */
-  
 
 /* EXTRAS */
 
